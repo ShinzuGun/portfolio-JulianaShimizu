@@ -1,57 +1,120 @@
-<html>
+<!DOCTYPE html>
+<html lang="pt-BR">
 <head>
-<style>
-div.gallery {
-  margin: 5px;
-  border: 1px solid #ccc;
-  float: left;
-  width: 180px;
-}
-
-div.gallery:hover {
-  border: 1px solid #777;
-}
-
-div.gallery img {
-  width: 100%;
-  height: auto;
-}
-
-div.desc {
-  padding: 15px;
-  text-align: center;
-}
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exemplo de Vários Botões com Texto Oculto</title>
+  <style>
+    body {
+      background-color: #3A465C;
+      color: #D2BEB0;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    nav {
+      text-align: center;
+      background: #3A465C;
+      padding: 1rem 0;
+    }
+    img {
+      width: 50%;
+      margin: 0 auto;
+      display: block;
+    }
+    h1 {
+      font-size: 2.5rem;
+    }
+    h2 {
+      font-size: 1.7rem;
+    }
+    article {
+      padding: 2rem;
+      background-color: #3A465C;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    .button {
+      background-color: #D2BEB0;
+      color: white;
+      padding: 1rem;
+      cursor: pointer;
+      text-align: center;
+      margin: 1rem 0;
+      transition: background-color 0.3s ease;
+    }
+    .button:hover {
+      background-color: #93796F;
+    }
+    .hidden-text {
+      display: none;
+      margin-top: 1rem;
+      background-color: #ecf0f1;
+      padding: 1rem;
+      border-radius: 5px;
+    }
+  </style>
 </head>
 <body>
 
-<div class="gallery">
-  <a target="_blank" href="https://www.w3schools.com/tags/pic_trulli.jpg">
-    <img src="https://www.w3schools.com/tags/pic_trulli.jpg" alt="Cinque Terre" width="600" height="400">
-  </a>
-  <div class="desc">Add a description of the image here</div>
-</div>
+<nav>
+  <img src="https://i.postimg.cc/K8Pc6SY2/Sem-t-tulo-2.jpg" alt="Juliana Shimizu">
+  <h1>Juliana Shimizu</h1>
+  <h2>OAB: 204200</h2>
+</nav>
 
-<div class="gallery">
-  <a target="_blank" href="img_forest.jpg">
-    <img src="img_forest.jpg" alt="Forest" width="600" height="400">
-  </a>
-  <div class="desc">Add a description of the image here</div>
-</div>
+<article>
+  <div class="button" onclick="toggleText(this)">Biografia</div>
+  <div class="hidden-text">
+    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+<br><br>
+    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+<br><br>
+   aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+<br><br>
+   aaaaaaaaaaaaaaaaaaaaaaaaaaaa 
+  </div>
 
-<div class="gallery">
-  <a target="_blank" href="img_lights.jpg">
-    <img src="img_lights.jpg" alt="Northern Lights" width="600" height="400">
-  </a>
-  <div class="desc">Add a description of the image here</div>
-</div>
+  <div class="button" onclick="toggleText(this)">aaaaa</div>
+  <div class="hidden-text">
+    <b>aaaaa:</b> aaaaaaaaaaaaaaaaaaa
 
-<div class="gallery">
-  <a target="_blank" href="img_mountains.jpg">
-    <img src="img_mountains.jpg" alt="Mountains" width="600" height="400">
-  </a>
-  <div class="desc">Add a description of the image here</div>
-</div>
+    <br><br>
+    <b>aaaaaaaaaaaaaaaa
+
+    <br><br>
+    <b>aaaaaaaaaaaaaaaaaaaaaaaaaaa
+    <br><br>
+    <b>aaaaaaaaaa a aaa
+    <br><br>
+    <b>aaaaaaaa aaaaa
+  </div>
+
+  <div class="button" onclick="toggleText(this)">Contatos</div>
+  <div class="hidden-text">
+    <p><a href="mailto:email@example.com">E-mail</a></p>
+    <p><a href="https://www.linkedin.com" target="_blank">LinkedIn</a></p>
+    <p><a href="https://www.instagram.com" target="_blank">Instagram</a></p>
+    <p><a href="https://wa.me/5511999999999" target="_blank">WhatsApp</a></p>
+    aaaaaa:
+    <br>aaaaaaaaaaaaaaa
+  </div>
+</article>
+
+<script>
+  function toggleText(button) {
+    const text = button.nextElementSibling;
+    const allTexts = document.querySelectorAll('.hidden-text');
+
+    allTexts.forEach(t => t.style.display = 'none');
+
+    if (text.style.display === 'block') {
+      text.style.display = 'none';
+    } else {
+      text.style.display = 'block';
+    }
+  }
+</script>
 
 </body>
 </html>
