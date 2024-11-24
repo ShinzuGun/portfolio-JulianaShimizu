@@ -1,0 +1,23 @@
+<div class="TrabalheComigo" style="width: 1510px; height: 740px; position: relative; background: white">
+  <img class="TrabalheComigo2" style="width: 1510px; height: 740px; left: 0px; top: 0px; position: absolute" src="https://i.postimg.cc/ZnSKkHs4/Trabalhe-comigo2.png" />
+  <div class="Group90" style="width: 460px; height: 37.62px; left: 1004px; top: 49px; position: absolute">
+    <div class="Group51" style="width: 124.45px; height: 37.62px; left: 0px; top: 0px; position: absolute">
+      <div class="Group26" style="width: 124.45px; height: 37.62px; left: 0px; top: 0px; position: absolute; border-radius: 2px; justify-content: center; align-items: center; display: inline-flex">
+        <div class="Rectangle1" style="width: 124.45px; height: 37.62px; background: #848BBF; box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25); border-radius: 6px"></div>
+      </div>
+      <div class="FormaO" style="width: 106.22px; height: 18.82px; left: 9px; top: 6px; position: absolute; text-align: center; color: white; font-size: 20px; font-family: Alike; font-weight: 400; letter-spacing: 1.20px; word-wrap: break-word">Formação</div>
+    </div>
+    <div class="Group52" style="width: 89.72px; height: 37.62px; left: 141.63px; top: 0px; position: absolute">
+      <div class="Group28" style="width: 89.72px; height: 37.62px; left: 0px; top: 0px; position: absolute; border-radius: 2px; justify-content: center; align-items: center; display: inline-flex">
+        <div class="Rectangle1" style="width: 89.72px; height: 37.62px; background: #848BBF; box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25); border-radius: 6px"></div>
+      </div>
+      <div class="Design" style="width: 72.84px; height: 18.82px; left: 8.37px; top: 6px; position: absolute; text-align: center; color: white; font-size: 20px; font-family: Alike; font-weight: 400; letter-spacing: 1.20px; word-wrap: break-word">Design</div>
+    </div>
+    <div class="Group53" style="width: 211.28px; height: 37.62px; left: 248.72px; top: 0px; position: absolute">
+      <div class="Group29" style="width: 211.28px; height: 37.62px; left: 0px; top: 0px; position: absolute; border-radius: 2px; justify-content: center; align-items: center; display: inline-flex">
+        <div class="Rectangle1" style="width: 211.28px; height: 37.62px; background: #848BBF; box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25); border-radius: 6px"></div>
+      </div>
+      <div class="ComoEuTrabalho" style="width: 200.30px; height: 18.82px; left: 5.28px; top: 6px; position: absolute; text-align: center; color: white; font-size: 20px; font-family: Alike; font-weight: 400; letter-spacing: 1.20px; word-wrap: break-word">Como eu trabalho?</div>
+    </div>
+  </div>
+</div>
